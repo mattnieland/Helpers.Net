@@ -1,0 +1,2 @@
+cd Helpers.Net\bin\Release
+nuget push Helpers.Net.1.0.2.nupkg oy2p4vu32peyvamfti3avaxdns4xpqvuljqupqm4r5owai -Source https://api.nuget.org/v3/index.json

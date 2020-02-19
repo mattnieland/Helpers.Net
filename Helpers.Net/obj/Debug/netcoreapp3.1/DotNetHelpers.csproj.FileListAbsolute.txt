@@ -1,0 +1,14 @@
+C:\Users\mattn\source\Repos\DotNetHelpers\bin\Debug\netcoreapp3.1\DotNetHelpers.deps.json
+C:\Users\mattn\source\Repos\DotNetHelpers\bin\Debug\netcoreapp3.1\DotNetHelpers.dll
+C:\Users\mattn\source\Repos\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.AssemblyInfoInputs.cache
+C:\Users\mattn\source\Repos\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.AssemblyInfo.cs
+C:\Users\mattn\source\Repos\DotNetHelpers\bin\Debug\netcoreapp3.1\DotNetHelpers.pdb
+C:\Users\mattn\source\Repos\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.dll
+C:\Users\mattn\source\Repos\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.pdb
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\bin\Debug\netcoreapp3.1\DotNetHelpers.deps.json
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\bin\Debug\netcoreapp3.1\DotNetHelpers.dll
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\bin\Debug\netcoreapp3.1\DotNetHelpers.pdb
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.AssemblyInfoInputs.cache
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.AssemblyInfo.cs
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.dll
+C:\Users\mattn\source\Repos\DotNetHelpers\DotNetHelpers\obj\Debug\netcoreapp3.1\DotNetHelpers.pdb
