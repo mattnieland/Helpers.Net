@@ -11,9 +11,8 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("mattn")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Matt Nieland")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("copyright © mattn")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Useful tools and extensions for .net projects")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2020.2.19.1647")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2")]
