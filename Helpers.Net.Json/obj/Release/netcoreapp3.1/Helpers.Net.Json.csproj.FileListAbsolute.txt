@@ -1,0 +1,8 @@
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\obj\Release\netcoreapp3.1\Helpers.Net.Json.AssemblyInfoInputs.cache
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\obj\Release\netcoreapp3.1\Helpers.Net.Json.AssemblyInfo.cs
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\obj\Release\netcoreapp3.1\Helpers.Net.Json.csprojAssemblyReference.cache
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\bin\Release\netcoreapp3.1\Helpers.Net.Json.deps.json
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\bin\Release\netcoreapp3.1\Helpers.Net.Json.dll
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\bin\Release\netcoreapp3.1\Helpers.Net.Json.pdb
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\obj\Release\netcoreapp3.1\Helpers.Net.Json.dll
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net.Json\obj\Release\netcoreapp3.1\Helpers.Net.Json.pdb

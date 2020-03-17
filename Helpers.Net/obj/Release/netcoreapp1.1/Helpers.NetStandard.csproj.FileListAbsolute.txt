@@ -1,0 +1,3 @@
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\netcoreapp1.1\Helpers.NetStandard.csprojAssemblyReference.cache
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\netcoreapp1.1\Helpers.NetStandard.AssemblyInfoInputs.cache
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\netcoreapp1.1\Helpers.NetStandard.AssemblyInfo.cs

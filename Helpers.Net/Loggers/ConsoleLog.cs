@@ -28,7 +28,7 @@ namespace Helpers.Net.Loggers
 	}
 	public class LogMessage
 	{
-		public string MessageId = Extensions.EncodedString.GuidToString(Guid.NewGuid());
+		//public string MessageId = Extensions.EncodedString.GuidToString(Guid.NewGuid());
 
 		public LogLevel LogLevel;
 		public string Message = "";

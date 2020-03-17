@@ -1,0 +1,9 @@
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\bin\Release\net47\Helpers.NetStandard.dll
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\bin\Release\net47\Helpers.NetStandard.pdb
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\bin\Release\net47\Newtonsoft.Json.dll
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\bin\Release\net47\TimeZoneConverter.dll
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net47\Helpers.NetStandard.AssemblyInfoInputs.cache
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net47\Helpers.NetStandard.AssemblyInfo.cs
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net47\Helpers.NetStandard.csproj.CopyComplete
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net47\Helpers.NetStandard.dll
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net47\Helpers.NetStandard.pdb
