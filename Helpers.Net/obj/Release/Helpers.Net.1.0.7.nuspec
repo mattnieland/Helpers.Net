@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Helpers.Net</id>
+    <version>1.0.7</version>
+    <authors>Helpers.Net</authors>
+    <owners>Helpers.Net</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="TimeZoneConverter" version="3.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net46\Helpers.Net.dll" target="lib\net46\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net461\Helpers.Net.dll" target="lib\net461\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net462\Helpers.Net.dll" target="lib\net462\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net47\Helpers.Net.dll" target="lib\net47\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net471\Helpers.Net.dll" target="lib\net471\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net472\Helpers.Net.dll" target="lib\net472\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net48\Helpers.Net.dll" target="lib\net48\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp2.0\Helpers.Net.dll" target="lib\netcoreapp2.0\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp2.1\Helpers.Net.dll" target="lib\netcoreapp2.1\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp2.2\Helpers.Net.dll" target="lib\netcoreapp2.2\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp3.0\Helpers.Net.dll" target="lib\netcoreapp3.0\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp3.1\Helpers.Net.dll" target="lib\netcoreapp3.1\Helpers.Net.dll" />
+    <file src="C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netstandard2.0\Helpers.Net.dll" target="lib\netstandard2.0\Helpers.Net.dll" />
+  </files>
+</package>

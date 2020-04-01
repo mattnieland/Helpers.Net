@@ -8,8 +8,8 @@ C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\netcorea
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp2.1\Helpers.Net.deps.json
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp2.1\Helpers.Net.dll
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\netcoreapp2.1\Helpers.Net.pdb
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\netcoreapp2.1\Helpers.Net.csprojAssemblyReference.cache
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\netcoreapp2.1\Helpers.Net.AssemblyInfoInputs.cache
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\netcoreapp2.1\Helpers.Net.AssemblyInfo.cs
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\netcoreapp2.1\Helpers.Net.dll
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\netcoreapp2.1\Helpers.Net.pdb
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\netcoreapp2.1\Helpers.Net.csprojAssemblyReference.cache

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Helpers.Net.Extensions
 {
@@ -118,6 +119,15 @@ namespace Helpers.Net.Extensions
             }
             // Return char and concat substring.
             return char.ToUpper(s[0]) + s.Substring(1).ToLower();
+        }
+
+        public static string CamelCase(this string s)
+        {
+            return Regex.Replace(s, @"([A-Z])([A-Z]+|[a-z0-9_]+)($|[A-Z]\w*)",
+            m =>
+            {
+                return m.Groups[1].Value.ToLower() + m.Groups[2].Value.ToLower() + m.Groups[3].Value;
+            });
         }
     }
 }
