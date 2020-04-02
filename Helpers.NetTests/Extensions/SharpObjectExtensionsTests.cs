@@ -14,7 +14,7 @@ namespace Helpers.Net.Extensions.Tests
         public void AsObjectTest()
         {
             var obj = new TestObject { Test1 = 1, Test2 = "test", Test3 = true, Test4 = new TestObject2 { Test = "test" } };
-            var sharpObject = obj.AsObject(true);
+            var sharpObject = obj.AsSharpObject();
             Assert.AreEqual(sharpObject.GetString("Test2"), "test");
         }
 

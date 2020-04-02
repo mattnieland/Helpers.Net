@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Helpers.Net/1.0.8": {
+      "Helpers.Net/1.0.11": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
@@ -36,7 +36,7 @@
     }
   },
   "libraries": {
-    "Helpers.Net/1.0.8": {
+    "Helpers.Net/1.0.11": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

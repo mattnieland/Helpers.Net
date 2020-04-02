@@ -1,20 +1,19 @@
 ﻿using Helpers.Net.Objects;
 using System;
-using System.Collections.Generic;
 
 namespace Helpers.Net.Extensions
 {
 	public static class SharpObjectExtensions
 	{
-		public static SharpObject AsObject(this object obj, bool camelCase = true)
+		public static SharpObject AsSharpObject(this object obj)
 		{
-			return SharpObject.Copy(obj).Clone(autoCaseFields: camelCase);			
+			return SharpObject.Copy(obj).Clone();			
 		}
 
-		public static Dictionary<string, object> AsDictionary(this object obj, bool camelCase = true)
-		{
-			return SharpObject.Copy(obj).Clone(autoCaseFields: camelCase).ToDictionary();
-		}
+		//public static Dictionary<string, object> AsDictionary(this object obj)
+		//{
+		//	return SharpObject.Copy(obj).Clone().ToDictionary();
+		//}
 		public static T ToObject<T>(this SharpObject obj)
 		{
 			var instance = typeof(T).GetConstructor(new Type[] { }).Invoke(new object[] { });

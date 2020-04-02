@@ -11,9 +11,9 @@ C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net46\Helpers.Ne
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net46\Helpers.Net.pdb
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net46\Newtonsoft.Json.dll
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\net46\TimeZoneConverter.dll
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.csprojAssemblyReference.cache
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.AssemblyInfoInputs.cache
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.AssemblyInfo.cs
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.csproj.CopyComplete
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.dll
 C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.pdb
+C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\obj\Release\net46\Helpers.Net.csprojAssemblyReference.cache
