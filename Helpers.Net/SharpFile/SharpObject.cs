@@ -60,14 +60,14 @@ namespace Helpers.Net.Objects
 		
 		}
 
-		//public SharpObject(JObject source)
-		//{
-		//	_isExpanded = true;
-		//	foreach (var col in source.ToDictionary())
-		//	{
-		//		this[col.Key] = col.Value;
-		//	}
-		//}
+		public SharpObject(JObject source)
+		{
+			_isExpanded = true;
+			foreach (var col in source.ToDictionary())
+			{
+				this[col.Key] = col.Value;
+			}
+		}
 
 		public SharpObject(IEnumerable<KeyValuePair<string, object>> source)
 		{
