@@ -1,1 +1,0 @@
-nuget push C:\Users\mattn\source\Repos\Helpers.Net\Helpers.Net\bin\Release\Helpers.Net.1.0.4.nupkg oy2mrq4rczfdcpvj7lcqwtoxoi4rq66ezkytm2cb7epcyu -Source https://api.nuget.org/v3/index.json
