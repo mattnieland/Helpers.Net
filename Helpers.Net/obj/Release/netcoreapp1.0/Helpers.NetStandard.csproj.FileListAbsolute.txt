@@ -1,2 +1,0 @@
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\netcoreapp1.0\Helpers.NetStandard.AssemblyInfoInputs.cache
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\netcoreapp1.0\Helpers.NetStandard.AssemblyInfo.cs

@@ -1,3 +1,0 @@
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net40\Helpers.NetStandard.csprojAssemblyReference.cache
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net40\Helpers.NetStandard.AssemblyInfoInputs.cache
-C:\Users\mattn\source\Repos\Helpers.Net\Helpers.NetStandard\obj\Release\net40\Helpers.NetStandard.AssemblyInfo.cs

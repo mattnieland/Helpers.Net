@@ -1,20 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RepositoryUrl>https://github.com/mattnieland/Helpers.Net.git</RepositoryUrl> 
+		<RepositoryType>git</RepositoryType>  <TargetFrameworks>netstandard2.0;net46;net461;net462;net47;net471;net472;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+		<AssemblyVersion>2020.4.11.1156</AssemblyVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.14</Version>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net46;net461;net462;net47;net471;net472;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
-    <AssemblyVersion>2020.4.10.2032</AssemblyVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.13</Version>
-  </PropertyGroup>
+	<ItemGroup>
+		<Folder Include="Properties\PublishProfiles\" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Properties\PublishProfiles\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="TimeZoneConverter" Version="3.2.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="TimeZoneConverter" Version="3.2.0" />
+	</ItemGroup>
 
 </Project>

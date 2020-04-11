@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AB1B2A5-9159-49C1-BF39-0E1D9B74BEE9}"
 	ProjectSection(SolutionItems) = preProject
-		deploy.txt = deploy.txt
+		deploy_command.txt = deploy_command.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers.Net", "Helpers.Net\Helpers.Net.csproj", "{6C9B9200-D3DB-46DF-92D8-A57DBB040B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers.NetTests", "Helpers.NetTests\Helpers.NetTests.csproj", "{FEA54691-CAB6-4842-B271-F7813B89738D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers.NetTests", "Helpers.NetTests\Helpers.NetTests.csproj", "{FEA54691-CAB6-4842-B271-F7813B89738D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{8524C8D7-1BE3-4A49-B63C-A6456E57D57E}"
 EndProject
