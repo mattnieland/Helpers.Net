@@ -3,8 +3,16 @@
 		<RepositoryUrl>https://github.com/mattnieland/Helpers.Net.git</RepositoryUrl> 
 		<RepositoryType>github</RepositoryType>  <TargetFrameworks>netstandard2.0;net46;net461;net462;net47;net471;net472;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
 		<AssemblyVersion>2020.4.11.1203</AssemblyVersion>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.14</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.15</Version>
+		<Product>Helpers.Net</Product>
+		<Description>Helper functions for C#</Description>
+		<PackageId>Helpers.Net</PackageId>
+		<PackageReleaseNotes>Cleaned up project</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<FileVersion>2020.4.11.1203</FileVersion>
+		<Company>Helpers.Net</Company>
+		<Authors>Helpers.Net</Authors>
 	</PropertyGroup>
 
 	<ItemGroup>
