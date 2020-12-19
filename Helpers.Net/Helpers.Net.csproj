@@ -1,28 +1,40 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<RepositoryUrl>https://github.com/mattnieland/Helpers.Net.git</RepositoryUrl> 
-		<RepositoryType>github</RepositoryType>  <TargetFrameworks>netstandard2.0;net46;net461;net462;net47;net471;net472;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
-		<AssemblyVersion>2020.4.11.1203</AssemblyVersion>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.0.15</Version>
+		<RepositoryType>git</RepositoryType>	<TargetFrameworks>netstandard2.0;net46;net461;net462;net47;net471;net472;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Product>Helpers.Net</Product>
 		<Description>Helper functions for C#</Description>
 		<PackageId>Helpers.Net</PackageId>
-		<PackageReleaseNotes>Cleaned up project</PackageReleaseNotes>
+		<PackageReleaseNotes>Changed build version format</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-		<FileVersion>2020.4.11.1203</FileVersion>
 		<Company>Helpers.Net</Company>
 		<Authors>Helpers.Net</Authors>
+		<PackageProjectUrl>https://github.com/mattnieland/Helpers.Net</PackageProjectUrl>
+		<AssemblyVersion>2020.4.11.1354</AssemblyVersion>
+		<FileVersion>2020.4.11.1354</FileVersion>
+		<Version>2020.4.11.1338</Version>
+		<Copyright>Helpers.Net 2020</Copyright>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<Folder Include="Properties\PublishProfiles\" />
-	</ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+	  <ShouldCreateLogs>True</ShouldCreateLogs>
+	  <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+	  <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+	  <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+	  <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+	  <UpdatePackageVersion>False</UpdatePackageVersion>
+	  <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+	  <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
 		<PackageReference Include="TimeZoneConverter" Version="3.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Properties\" />
 	</ItemGroup>
 
 </Project>
