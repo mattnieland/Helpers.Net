@@ -1,9 +1,9 @@
-﻿using Helpers.Net.Objects;
+﻿using Helpers.Net.IO.SharpFile;
 using System;
 
 namespace Helpers.Net.Extensions
 {
-	public static class SharpObjectExtensions
+    public static class SharpObjectExtensions
 	{
 		public static SharpObject AsSharpObject(this object obj)
 		{

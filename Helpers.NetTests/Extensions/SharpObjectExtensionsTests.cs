@@ -1,9 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Helpers.Net.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Helpers.Net.Objects;
+﻿using Helpers.Net.IO.SharpFile;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Helpers.Net.Extensions.Tests
 {

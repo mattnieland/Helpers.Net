@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<RepositoryUrl>https://github.com/mattnieland/Helpers.Net.git</RepositoryUrl> 
-		<RepositoryType>git</RepositoryType>	<TargetFrameworks>netstandard2.0;net46;net461;net462;net47;net471;net472;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+		<RepositoryType>git</RepositoryType>	
+		<TargetFrameworks>netstandard2.1;netstandard2.0;net46;net461;net462;net47;net471;net472;net48;net50;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Product>Helpers.Net</Product>
 		<Description>Helper functions for C#</Description>
@@ -11,26 +12,50 @@
 		<Company>Helpers.Net</Company>
 		<Authors>Helpers.Net</Authors>
 		<PackageProjectUrl>https://github.com/mattnieland/Helpers.Net</PackageProjectUrl>
-		<AssemblyVersion>2020.4.11.1354</AssemblyVersion>
+		<AssemblyVersion>2021.6.15.1946</AssemblyVersion>
 		<FileVersion>2020.4.11.1354</FileVersion>
-		<Version>2020.4.11.1338</Version>
+		<Version>2021.6.72</Version>
 		<Copyright>Helpers.Net 2020</Copyright>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
 	  <ShouldCreateLogs>True</ShouldCreateLogs>
 	  <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
-	  <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+	  <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
 	  <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
 	  <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
 	  <UpdatePackageVersion>False</UpdatePackageVersion>
 	  <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
 	  <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+	  <AssemblyVersionSettings>YearStamp.MonthStamp.DayStamp.TimeStamp</AssemblyVersionSettings>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+	  <ShouldCreateLogs>True</ShouldCreateLogs>
+	  <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+	  <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+	  <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+	  <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+	  <AssemblyVersionSettings>YearStamp.MonthStamp.DayStamp.TimeStamp</AssemblyVersionSettings>
+	  <UpdatePackageVersion>False</UpdatePackageVersion>
+	  <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+	  <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
+	  <ShouldCreateLogs>True</ShouldCreateLogs>
+	  <AdvancedSettingsExpanded>True</AdvancedSettingsExpanded>
+	  <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+	  <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+	  <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+	  <AssemblyVersionSettings>YearStamp.MonthStamp.DayStamp.TimeStamp</AssemblyVersionSettings>
+	  <UpdatePackageVersion>True</UpdatePackageVersion>
+	  <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+	  <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+	  <PackageVersionSettings>AssemblyVersion.Increment.None</PackageVersionSettings>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-		<PackageReference Include="TimeZoneConverter" Version="3.2.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="TimeZoneConverter" Version="3.5.0" />
 	</ItemGroup>
 
 	<ItemGroup>
