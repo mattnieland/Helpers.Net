@@ -11,14 +11,15 @@ namespace Helpers.Net.IO.SharpFile.Tests
     public class SharpObjectTests
     {
         [TestMethod()]
-        public void GetDateTest()
+        public void GetStringTest()
         {
             try
             {
                 var obj = new SharpObject();
-                obj["dtm"] = DateTime.Now;
-                var dtm = obj.GetDate("dtm");
-                Assert.IsNotNull(dtm);
+                obj["string"] = "test";
+                obj["int"] = 3;
+                var i = obj.GetString("int");
+                Assert.IsNotNull(i);
             }
             catch (Exception ex)
             {

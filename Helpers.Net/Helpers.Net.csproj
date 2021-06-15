@@ -12,9 +12,9 @@
 		<Company>Helpers.Net</Company>
 		<Authors>Helpers.Net</Authors>
 		<PackageProjectUrl>https://github.com/mattnieland/Helpers.Net</PackageProjectUrl>
-		<AssemblyVersion>2021.6.15.1946</AssemblyVersion>
+		<AssemblyVersion>2021.6.15.2053</AssemblyVersion>
 		<FileVersion>2020.4.11.1354</FileVersion>
-		<Version>2021.6.72</Version>
+		<Version>2021.6.77</Version>
 		<Copyright>Helpers.Net 2020</Copyright>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">

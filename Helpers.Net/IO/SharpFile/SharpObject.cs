@@ -652,6 +652,19 @@ namespace Helpers.Net.IO.SharpFile
 				if (value == null)
 					return default(T);
 
+				var valType = typeof(T);
+				var sharpType = _types[name];
+
+
+				//if we're trying to get a string and ToString will work, just return it as a string
+				if(valType == typeof(string))
+                {
+					if (new SharpValueType[] { SharpValueType.Int, SharpValueType.Double, SharpValueType.Decimal, SharpValueType.Date, SharpValueType.Bool, SharpValueType.Long }.Contains(sharpType))
+					{
+						return (T)ToStringValue(value.ToString());
+					}
+				}
+				
 				return (T)ToValue(_types[name], value);
 			}
 
@@ -1609,6 +1622,10 @@ namespace Helpers.Net.IO.SharpFile
 		
 		#region Value Type Conversion
 
+		private object ToStringValue(object value)
+        {
+			return value;
+        }
 		private object ToValue(SharpValueType type, object value)
 		{
 			if (value is string && type != SharpValueType.String)
